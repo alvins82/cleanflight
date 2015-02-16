@@ -6,7 +6,7 @@
 2. [Setup RC Controller](#step-2---setup-rc-controller). Mixers and subtrim on RC controller.
 3. [CG Balance](#step-3---cg-balance). Get CG correct and balanced with the battery in position.
 4. [Default PIDS](#step-4---default-naze32-pids). Load default naze32 pids. 
-5. [Begin Rate Mode Tuning](#step-5---begin-rate-mode-tuning). This is gyro assisted only and must be done first.
+5. [Begin Rate Mode Tuning](#step-5---rate-mode-tuning). This is gyro assisted only and must be done first.
 
 ### Step 1 - Calibrate ESCs
 
@@ -24,10 +24,13 @@ CG must balance both in the roll and pitch movements. Take note of exactly where
 
 Load default naze32 PIDs into the board. This can be done with a clean erase if you have already changed these (ensure you re-enable other settings if wiping). Default PIDs will allow to tune from a relatively clean slate.
 
-### Step 5 - Begin Rate Mode Tuning
+### Step 5 - Rate Mode Tuning
 
 Always start with rate mode tuning as it doesn't use any sensors/functions other than the gyroscope. This allows us to isolate any issues with CG and RC mixer trims and get those locked in. 
-  - Begin by calibrating the gyro using stick commands. 
+  - Begin by calibrating the gyro using stick commands. Note that don't calibrate acc yet as we are not using it - only gyro. 
   - Once done - arm the quad and slowly attempt to take off. Few things can happen -
-    - if the quad banks to the left/right/forward/backwards - you have an issue with CG and/or RC trims.
+    - if the quad banks to the left/right/forward/backwards - you have an issue with CG and/or RC trims. Correct that and retry.
+    - if the quad goes straight up then we are good.
+
+### Step 6 - Level Mode Tuning
 
