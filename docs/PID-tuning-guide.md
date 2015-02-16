@@ -3,10 +3,10 @@
 ### TLDR
 
 1. [Calibrate ESCs](#step-1---calibrate-escs).
-2. Setup RC Controller. Mixers and subtrim on RC controller.
-3. CG Balance. Get CG correct and balanced with the battery in position.
-4. Default PIDS. Load default naze32 pids. 
-5. Begin Rate Mode Tuning. This is gyro assisted only and must be done first.
+2. [Setup RC Controller](#step-2---setup-rc-controller). Mixers and subtrim on RC controller.
+3. [CG Balance](#step-3---cg-balance). Get CG correct and balanced with the battery in position.
+4. [Default PIDS](#step-4---default-naze32-pids). Load default naze32 pids. 
+5. [Begin Rate Mode Tuning](#step-5---begin-rate-mode-tuning). This is gyro assisted only and must be done first.
 
 ### Step 1 - Calibrate ESCs
 
