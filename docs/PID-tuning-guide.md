@@ -2,7 +2,7 @@
 
 ### TLDR
 
-1. Calibrate ESCs. See here.
+1. [Calibrate ESCs](#step-1---calibrate-escs).
 2. Setup RC Controller. Mixers and subtrim on RC controller.
 3. CG Balance. Get CG correct and balanced with the battery in position.
 4. Default PIDS. Load default naze32 pids. 
